@@ -119,7 +119,7 @@ export function PredictiveAnalytics({ data }: PredictiveAnalyticsProps) {
                 y={200000} 
                 stroke="#EF4444" 
                 strokeDasharray="5 5" 
-                label={{ value: "Target", position: "topRight" }}
+                label={{ value: "Target", position: "insideTopRight" }}
               />
             </ComposedChart>
           </ResponsiveContainer>
